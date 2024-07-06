@@ -16,7 +16,7 @@ ALLOWED_EXTENSIONS = {'jpg', 'jpeg', 'png'}
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-model=load_model('model12.h5')
+model=load_model('model.h5')
 
 
 def allowed_file(filename):
